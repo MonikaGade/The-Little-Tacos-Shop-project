@@ -1,0 +1,43 @@
+
+body{
+   margin-left:20%;
+   margin-right:20%;
+   border-left:1px solid;
+   border-right: 1px solid;
+   padding:1rem
+}
+table{
+   width:100%;
+   border-collapse: collapse;
+}
+table,tr,th,td,caption{
+border: 1px solid ;
+}
+img{
+   width:50%;
+   height:auto
+}
+caption,th,td{
+   padding:0.3rem
+}
+
+input,textarea{
+   outline:none
+}
+textarea{
+   width:100%;
+}
+p button{
+   float:right;
+   margin-right:10px;
+   padding:.5rem;
+   border: none;
+   border-radius: 10px;
+   color:white;
+}
+p button[type="submit"]{
+      background-color:blue;
+}
+p button[type="reset"]{
+      background-color: red;
+}
